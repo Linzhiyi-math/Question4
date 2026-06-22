@@ -98,29 +98,8 @@ $$\text{CRLB}(s) = \frac{1}{I(s)}, \quad I(s) = \sum_a \frac{[\lambda_a'(s)]^2}{
 ```bash
 pip install -r requirements.txt
 ```
-
 ---
 
-## 使用方式
-
-### 直接运行脚本
-
-将 Notebook 导出为 `.py` 后执行：
-
-```bash
-jupyter nbconvert --to script 第四题.ipynb
-python 第四题.py
-```
-
-### 在 Jupyter 环境中运行
-
-```bash
-jupyter notebook 第四题.ipynb
-```
-
-然后在界面中选择 **Run All Cells**。
-
----
 
 ## 代码结构
 
