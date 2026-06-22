@@ -86,20 +86,14 @@ $$\text{CRLB}(s) = \frac{1}{I(s)}, \quad I(s) = \sum_a \frac{[\lambda_a'(s)]^2}{
 
 ---
 
-## 环境依赖
+## 环境要求
 
-```
-numpy
-scipy
-matplotlib
-tqdm
-```
+- **开发环境**：Python 3.14.4
+- **运行环境**：Jupyter Notebook
+- **依赖库**：numpy, matplotlib, scipy, tqdm, platform, warnings
+- （版本见 requirements.txt）
 
-安装依赖：
 
-```bash
-pip install numpy scipy matplotlib tqdm
-```
 
 ---
 
