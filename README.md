@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ---
 ## 运行方法
 
-使用 Jupyter Notebook**
+使用 Jupyter Notebook
 
 ```bash
 jupyter notebook 第四题.ipynb
