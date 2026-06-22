@@ -1,8 +1,8 @@
 # 第四题：多神经元群体编码的 MVUB 估计数值模拟
 
-## 项目简介
+## 作业说明
 
-本项目通过数值模拟，研究多神经元群体编码中**最小方差无偏估计量（MVUB）**的性能，重点比较两种常用估计量——**最大似然估计（MLE）**与**群体向量估计（Population Vector，PV）**——并以 **Cramér–Rao 下界（CRLB）** 作为理论基准。
+本作业通过数值模拟，研究多神经元群体编码中**最小方差无偏估计量（MVUB）**的性能，重点比较两种常用估计量——**最大似然估计（MLE）**与**群体向量估计（Population Vector，PV）**——并以 **Cramér–Rao 下界（CRLB）** 作为理论基准。
 
 ---
 
@@ -99,13 +99,15 @@ $$\text{CRLB}(s) = \frac{1}{I(s)}, \quad I(s) = \sum_a \frac{[\lambda_a'(s)]^2}{
 pip install -r requirements.txt
 ```
 ---
-## 使用方法
+## 运行方法
+
+使用 Jupyter Notebook**
 
 ```bash
-# 克隆或下载本项目后，在项目目录下执行：
 jupyter notebook 第四题.ipynb
-# 运行全部单元格
 ```
+
+打开后，点击菜单栏 **Cell → Run All** 运行全部代码。
 ---
 ## 代码结构
 
