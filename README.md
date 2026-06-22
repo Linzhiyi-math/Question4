@@ -6,6 +6,31 @@
 
 ---
 
+## 环境要求
+
+- **开发环境**：Python 3.14.4
+- **运行环境**：Jupyter Notebook
+- **依赖库**：numpy, matplotlib, scipy, tqdm, platform, warnings
+- （版本见 requirements.txt）
+
+安装第三方依赖：
+
+```bash
+pip install -r requirements.txt
+```
+---
+## 运行方法
+
+使用 Jupyter Notebook**
+
+```bash
+jupyter notebook 第四题.ipynb
+```
+
+打开后，点击菜单栏 **Cell → Run All** 运行全部代码。
+
+---
+
 ## 模型说明
 
 ### 神经元调谐函数
@@ -83,31 +108,6 @@ $$\text{CRLB}(s) = \frac{1}{I(s)}, \quad I(s) = \sum_a \frac{[\lambda_a'(s)]^2}{
 - MSE（MLE 与 PV）均值与标准差
 - 效率比 $\text{MSE} / \text{CRLB}$
 - 估计偏差绝对均值
-
----
-
-## 环境要求
-
-- **开发环境**：Python 3.14.4
-- **运行环境**：Jupyter Notebook
-- **依赖库**：numpy, matplotlib, scipy, tqdm, platform, warnings
-- （版本见 requirements.txt）
-
-安装第三方依赖：
-
-```bash
-pip install -r requirements.txt
-```
----
-## 运行方法
-
-使用 Jupyter Notebook**
-
-```bash
-jupyter notebook 第四题.ipynb
-```
-
-打开后，点击菜单栏 **Cell → Run All** 运行全部代码。
 
 ---
 ## 代码结构
